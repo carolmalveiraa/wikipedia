@@ -17,3 +17,13 @@ Sigam as intruções da chamada do vídeo. Acredito que por lá, ficará mais f�
 - [Wikipedia](https://pt.wikipedia.org/)
 
 
+RESULTADO: 
+
+![alt text]({87141BA2-5DD9-439C-8D83-D482EC3DF83F}.png)
+
+![alt text]({A9B589B7-1851-4360-956D-9A6E615C6A5F}.png)
+
+![alt text]({20B93637-0E63-4594-9ABD-39CEDD1AE675}.png)
+
+![alt text]({9960BA45-C5EE-4E70-9A2B-42F051FC983C}.png)
+
