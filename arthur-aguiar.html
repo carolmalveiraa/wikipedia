@@ -31,16 +31,16 @@
         <div class="sidebar">
             <h2>Fofocas</h2>
             <ul>
-                <li><a href="">Resumo Novela - Mania de você - 25/10 A 02/11</a></li>
-                <li><a href="">Resumo Novela - Volta por cima - 25/10 A 02/11</a></li>
-                <li><a href="">Resumo Novela - No Rancho Fundo - 25/10 A 02/11</a></li>
-                <li><a href="">Arthur Aguiar faz mega festa para Sophia em resort de luxo</a></li>
+                <li><a href="mania-de-você.html">Resumo Novela - Mania de você - 25/10 A 02/11</a></li>
+                <li><a href="volta-por-cima.html">Resumo Novela - Volta por cima - 25/10 A 02/11</a></li>
+                <li><a href="no-rancho.html">Resumo Novela - No Rancho Fundo - 25/10 A 02/11</a></li>
+                <li><a href="arthur-aguiar.html">Arthur Aguiar faz mega festa para Sophia em resort de luxo</a></li>
                 <li><a href="">Xanddy e Carla Perez comemoram 23 anos de casamento</a></li>
                 <li><a href="">Simone Mendes anda ansiosa com gravação de DVD</a></li>
             </ul>
         </div>
 
-        <div class="main">
+        <div id="main">
             <h2>Arthur Aguiar faz mega festa para Sophia em resort de luxo</h2>
             <img src="/assets/images/volta-por-cima-3.jpg" alt="">
             <p>Arthur Aguiar encontrou uma maneira diferente de celebrar o aniversário de seis anos de sua filha Sophia, após ser supostamente excluído da festa organizada por Maíra Cardi, mãe da menina.
@@ -56,14 +56,37 @@
         <div class="anchors">
             <h2>Neste Artigo</h2>
             <ul>
-                <li><a href="#">Resumo</a></li>
-                <li><a href="#">Mais fofocas</a></li>
-                <li><a href="#">Envie fofocas quentes</a></li>
+                <li><a href="#main">Resumo</a></li>
+                <li><a href="index.html">Mais fofocas</a></li>
+                <li><a href="#form">Envie fofocas quentes</a></li>
             </ul>
         </div>
+    <div id="form">
+        <h3>Mande sua fofoca</h3>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="assunto">Assunto:</label>
+                <input type="text" id="assunto" name="assunto" required>
+            </div>
+            <div class="form-group">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            </div>
+            <div class="button-container">
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </div>
+        </form>
     </div>
     </main>
-
     <footer>
         <p>Carol Malveira &copy;. Todos os direitos reservados.&nbsp;
         <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a> &nbsp;| &nbsp;
