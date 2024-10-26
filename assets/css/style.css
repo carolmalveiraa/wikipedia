@@ -5,12 +5,40 @@ body, html {
     font-family: "Poppins", sans-serif;
 }
 
-/* Headings */
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Poppins", sans-serif;
+/* Contêiner principal do header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f9f9fb; /* Cor de fundo para destacar */
+    border-bottom: 1px solid #cdcdcd; /* Linha separadora */
 }
 
-/* Lists and Links */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 0; 
+}
+
+/* Estilo da navbar */
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+}
+
+.navbar ul li {
+    margin: 0;
+}
+
+.navbar ul li a {
+    color: red;
+    text-decoration: none;
+}
+
 ul { 
     list-style: none; 
     padding-left: 5px; 
@@ -47,7 +75,6 @@ h3 {
     text-align: center;
 }
 
-/* Layout Sections */
 .bar {
     background-color: #f9f9fb;
     padding: 15px;
@@ -71,7 +98,6 @@ h3 {
     border-top: 1px solid #cdcdcd;
 }
 
-/* Content Sections */
 .anchors {
     border-left: 1px solid #cdcdcd;
     padding-left: 15px;
@@ -83,4 +109,32 @@ h3 {
 
 figure {
     text-align: center;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: red;
+    transition: color 0.3s ease;
+    cursor: pointer;
+    opacity: 0.7;
+    &:hover {
+        color: #aa2323;
+        opacity: 1;
+    }
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid rgb(212, 80, 80);
+    color: red;
+    transition: color 0.3s ease;
+    cursor: pointer;
+    opacity: 0.7;
+    &:hover {
+        color: #aa2323;
+        opacity: 1;
+    }
 }
