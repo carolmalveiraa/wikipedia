@@ -117,25 +117,15 @@ li {
     color: red;
     transition: color 0.3s ease;
     cursor: pointer;
-    opacity: 0.7;
-    &:hover {
-        color: #aa2323;
-        opacity: 1;
-    }
 }
 
 .sidebar a {
     display: block;
     padding: 10px;
-    border-bottom: 1px solid rgb(212, 80, 80);
+    border-bottom: 1px solid #470404;
     color: red;
     transition: color 0.3s ease;
     cursor: pointer;
-    opacity: 0.7;
-    &:hover {
-        color: #aa2323;
-        opacity: 1;
-    }
 }
 
 form {
